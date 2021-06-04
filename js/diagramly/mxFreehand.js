@@ -9,7 +9,7 @@ function mxFreehand(graph)
 	}
 	
 	//Code inspired by https://stackoverflow.com/questions/40324313/svg-smooth-freehand-drawing
-	var bufferSize = mxFreehand.prototype.NO_SMOOTHING;
+	var bufferSize = mxFreehand.prototype.HYPER_SMOOTH_SMOOTHING;
 	var path = null;
 	var partPathes = [];
 	var strPath;
